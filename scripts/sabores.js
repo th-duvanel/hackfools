@@ -16,13 +16,13 @@ sabores = {
         "chocolate", 
         "doce de leite", 
         "abacaxi", 
-        "papel picado"
+        "galinha"
     ],
     molhos: [
         "tomate",
         "shoyu",
         "branco", 
-        "tártaro", 
+        "tartaro", 
         "caesar", 
         "abacaxi"
     ],
@@ -87,6 +87,7 @@ precos = {
             abacaxi: 0
         },
         recheios: {
+            galinha: 0,
             calabresa: 0, 
             pepperoni: 0, 
             margherita: 0,
@@ -95,13 +96,13 @@ precos = {
             chocolate: 0, 
             docedeleite: 0, 
             abacaxi: 0, 
-            papelpicado: 0
+            chocolate: 0
         },
         molhos: {
             tomate: 0,
             shoyu: 0,
             branco: 0, 
-            tártaro: 0, 
+            tartaro: 0, 
             caesar: 0, 
             abacaxi: 0
         },
