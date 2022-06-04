@@ -3,6 +3,16 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 
 }
+#main {
+    margin-left: 0.3em;
+    font-size: 30px;
+    margin-bottom: 2em;
+
+}
+#prin {
+    margin-left: 0.4em;
+
+}
 #logo {
     margin-left: 2%;
     margin-top: 1%;
@@ -117,7 +127,7 @@ h3 {
 
 #preview {
     left: 35em;
-    top: 20em;
+    top: 25.5em;
     background-color: rgb(216, 29, 29);
     margin: 5em;
     position: absolute;
@@ -126,7 +136,7 @@ h3 {
 select {
     margin-left: 3.2em;
 }
-#adicionais {
+#adicionais, #opcionais {
     margin-left: 2.4em;
 }
 .b5 {
