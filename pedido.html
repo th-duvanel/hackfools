@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <script src="scripts/sabores.js"></script>
+    <script src="scripts/sabores_load.js"></script>
+    <script src="scripts/solicitar.js"></script>
+    <title>AiFoode - Faça seu pedido</title>
+</head>
+<body onload="sabores_load()">
+    <div id="content">
+        <div id="panel" >
+            <button>Me surpreenda (ou não)</button>
+
+            <p>Escolha a base da sua pizza:</p>
+            <select name="base" id="base"></select>
+            <p>Escolha o recheio da sua pizza:</p>
+            <select name="recheio" id="recheio"></select>
+            <p>Escolha o molho da sua pizza:</p>
+            <select name="molho" id="molho"></select>
+            <p>Escolha seus adicionais:</p>
+            <div id="adicionais"></div>
+
+            <button onclick="solicitar()">Visualizar</button>
+            <button>Confirmar Pedido</button>
+        </div>
+        <canvas id="preview">
+
+        </canvas>
+    </div>
+</body>
+</html>
