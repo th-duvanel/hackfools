@@ -41,7 +41,7 @@ function obter() {
     BASE = base;
     RECHEIO = recheio;
     MOLHO = molho;
-    ADICIONAIS = adicionais;
+    ADICIONAIS = listaAdcs;
 }
 
 function visualizar() {
