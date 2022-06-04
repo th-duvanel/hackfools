@@ -22,13 +22,19 @@ function obter() {
     });
 
     console.log(base, recheio, molho, listaAdcs, preco);
+    PRECO = preco;
+    BASE = base;
+    RECHEIO = recheio;
+    MOLHO = molho;
+    ADICIONAIS = adicionais;
 }
 
 function visualizar() {
     obter();
-    let c = document.getElementById("preview");
+    let preview = document.getElementById("preview");
 
-
+    preview.innerHTML += '<img id="base" src="pizzas/bases/' + BASE + '.PNG" width="400px" height="400px">'
+    preview.innerHTML += '<img id="recheio" src="pizzas/recheios/' + RECHEIO + '.PNG" width="400px" height="400px">'
 }
 
 function confirmar() {

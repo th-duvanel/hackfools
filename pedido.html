@@ -11,6 +11,11 @@
     <script src="scripts/sabores.js"></script>
     <script src="scripts/sabores_load.js"></script>
     <script src="scripts/solicitar.js"></script>
+    <style>
+        #preview > img {
+            position: absolute;
+        }
+    </style>
     <title>AiFoode - Faça seu pedido</title>
 </head>
 <body onload="sabores_load()">
@@ -32,13 +37,15 @@
             <select name="molho" id="molho"></select>
             <p>Escolha seus adicionais:</p>
             <div id="adicionais"></div>
+            <p>Opcionais</p>
+            <div id="opcionais"></div>
 
             <button onclick="visualizar()">Visualizar</button>
             <button onclick="confirmar()">Confirmar Pedido</button>
         </div>
-        <canvas id="preview">
+        
+        <div id="preview"></div>
 
-        </canvas>
     </div>
 </body>
 </html>

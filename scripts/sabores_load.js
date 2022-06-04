@@ -3,6 +3,7 @@ function sabores_load() {
     let eRecheios = document.getElementById("recheio");
     let eMolhos = document.getElementById("molho");
     let eAdicionais = document.getElementById("adicionais");
+    let eOpcionais = document.getElementById("opcionais");
 
     sabores.bases.forEach(base => {
         eBases.innerHTML += '<option value="' + base + '">' + base + '</option>';
@@ -18,5 +19,8 @@ function sabores_load() {
 
     sabores.adicionais.forEach(adc => {
         eAdicionais.innerHTML += '<input type="checkbox" id="' + adc + '" name="' + adc + '" value="' + adc +'"><label for=' + adc + '> ' + adc + '</label><br>'
+    });
+
+    listaopcoes.forEach(op => {
     });
 }
