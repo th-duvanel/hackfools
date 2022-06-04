@@ -10,7 +10,7 @@ function sabores_load() {
     });
 
     sabores.recheios.forEach(recheio => {
-        eRecheios.innerHTML += '<option value="' + recheio + '">' + recheio + ' - R$ ' + precos.recheios[recheio.replace(' ', '')] + '</option>';
+        eRecheios.innerHTML += '<option value="' + recheio + '">' + recheio + ' - R$ ' + precos.recheios[recheio.replace(' ', '').replace(' ', '')] + '</option>';
     });
 
     sabores.molhos.forEach(molho => {
