@@ -41,43 +41,43 @@ sabores = {
 
 precos = {
         bases: {
-            trigo: 5, 
-            queijo: 0, 
-            chocolate: 0,
-            borracha: 0, 
-            papelao: 0,
-            abacaxi: 0
+            trigo: 2.0, 
+            queijo: 2.0, 
+            chocolate: 2.0,
+            borracha: 2.0, 
+            papelao: 2.0,
+            abacaxi: 2.0
         },
         recheios: {
-            galinha: 2,
-            calabresa: 0, 
-            pepperoni: 0, 
-            margherita: 0,
-            presuntoequeijo: 0, 
-            portuguesa: 0, 
-            chocolate: 0, 
-            docedeleite: 0, 
-            abacaxi: 0, 
-            chocolate: 0
+            galinha: 2.0,
+            calabresa: 2.0, 
+            pepperoni: 2.0, 
+            margherita: 2.0,
+            presuntoequeijo: 2.0, 
+            portuguesa: 2.0, 
+            chocolate: 2.0, 
+            docedeleite: 2.0, 
+            abacaxi: 2.0, 
+            chocolate: 2.0
         },
         molhos: {
-            ketchup: 0,
-            tomate: 0,
-            shoyu: 0,
-            branco: 0, 
-            tartaro: 0, 
-            caesar: 0, 
-            abacaxi: 0
+            ketchup: 2.0,
+            tomate: 2.0,
+            shoyu: 2.0,
+            branco: 2.0, 
+            tartaro: 2.0, 
+            caesar: 2.0, 
+            abacaxi: 2.0
         },
         adicionais: {
-            milho: 0, 
-            oregano: 0,
-            ovo: 0,
-            batatafrita: 0, 
-            ralo: 0, 
-            abacaxi: 0,
-            clipedepapel: 0,
-            sim: 0
+            milho: 0.5, 
+            oregano: 0.5,
+            ovo: 0.5,
+            batatafrita: 0.5, 
+            ralo: 0.5, 
+            abacaxi: 0.5,
+            clipedepapel: 0.5,
+            sim: 3.5
         }
     }
 listaopcoes = [
@@ -85,40 +85,27 @@ listaopcoes = [
 ]
 opcoes = {
     grau: [
-        "Motoboy pode dar grau?", 
-        {
-            sim: 2, 
-            não: 4
-        }
+        "Motoboy não pode dar grau?", 1
     ],
     coerente: [
-        "Deseja receber a pizza parecida com o que solicitou?", {
-            sim: 2,
-            não: 4
-        }
+        "Deseja receber a pizza parecida com o que solicitou?", 12
     ],
     assada: [
-        "Deseja que sua pizza seja assada?", {
-            sim: 0,
-            não: 0
-        }
+        "Deseja que sua pizza seja assada?", 2
     ],
     queimada: [
-        "Deseja que sua pizza esteja queimada?", {
-            sim: 0,
-            não: 0
-        }
+        "Deseja que sua pizza não esteja queimada?", 2.5
+    ],
+    caixa: [
+        "Deseja que sua pizza tenha uma caixa?", 8
+    ],
+    validade: [
+        "Deseja que os ingredientes não estejam vencidos?", 3
     ],
     cabelo: [
-        "Deseja que sua pizza venha com cabelo?", {
-            sim: 0,
-            não: 0
-        }
+        "Deseja que sua pizza venha sem cabelo?", 1.99
     ],
     saliva: [
-        "Deseja saliva na sua pizza?", {
-            sim: 0,
-            não: 0
-        }
+        "Deseja saliva na sua pizza?", 1
     ]
 }
