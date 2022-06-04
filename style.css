@@ -38,6 +38,7 @@ body {
 }
 
 h1 {
+    
     color: rgb(24, 24, 24);
     font-size: px;
     top: 2em;
@@ -58,6 +59,20 @@ h1 {
 .button:hover span {
     padding-right: 25px;
 }
+#b1 {
+    z-index: 2;
+    display: inline-block;
+    width: 15em;
+    height: 3em;
+    border-radius: 4px;
+    background-color: rgb(216, 29, 29);
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 2.8em;
+
+}
 
 .button:hover span:after {
     opacity: 1;
@@ -69,10 +84,12 @@ section {
 }
 
 p{
-    color: grey;
+    margin-left: 2.1em;
+    color: rgb(99, 99, 99);
     font-size: 20px;
 }
 h3 {
+    margin-left: 3.5em;
     font-size: 30px;
     margin-bottom: 2em;
 }
@@ -98,3 +115,37 @@ h3 {
     object-fit: cover;
 }
 
+#preview {
+    left: 35em;
+    top: 20em;
+    background-color: rgb(216, 29, 29);
+    margin: 5em;
+    position: absolute;
+
+}
+select {
+    margin-left: 3.2em;
+}
+#adicionais {
+    margin-left: 2.4em;
+}
+.b5 {
+    z-index: 2;
+    display: inline-block;
+    width: 10em;
+    height: 3em;
+    border-radius: 4px;
+    background-color: rgb(216, 29, 29);
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 2.8em;
+}
+#linha-vertical {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1.8em;
+    width: 77em;
+    border: 1px solid rgb(192, 192, 192);
+}
