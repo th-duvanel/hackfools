@@ -60,4 +60,5 @@ function visualizar() {
 function confirmar() {
     visualizar()
 
+    window.location.href="finalizar.html"
 }
