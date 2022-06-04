@@ -74,5 +74,27 @@ p{
 }
 h3 {
     font-size: 30px;
+    margin-bottom: 2em;
+}
+#restaurante {
+    background-color:rgb(216, 29, 29);
+    padding: 3em;
+    border-radius: 1em 0em 0em 1em;
+
+}
+#restaurante2 {
+    background-color:rgb(216, 29, 29);
+    padding: 3em;
+    border-radius: 0em 1em 1em 0em;
+    left: 50em;
+    position: absolute;
+    object-fit: cover;
+}
+#restaurante1{
+    background-color:rgb(216, 29, 29);
+    padding: 3em;
+    left: 30.6em;
+    position: absolute;
+    object-fit: cover;
 }
 
