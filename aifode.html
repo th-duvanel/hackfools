@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AíFode - o mais barato =)</title>
+        <style>
+            body {
+                background-color: whitesmoke;
+        
+            }
+            #logo {
+                padding: 50px;
+            
+            }
+            .button {
+                top:10%;
+                left:11%;
+                width:100px;
+                height:40px;
+                position: absolute;
+                z-index: 2;
+                display: inline-block;
+                border-radius: 4px;
+                background-color: whitesmoke;
+                border: none;
+                color: grey;
+                text-align: center;
+                font-size: 16px;
+                padding: 5px;
+                width: 100px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+                object-fit: cover;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+            section {
+                margin-left: 3%;
+                margin-right: 5%;
+            }
+            h1 {
+                color: rgb(102, 102, 102);
+            }
+            p{
+                color: grey;
+            }
+
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <img id="logo" src="https://www.abcdacomunicacao.com.br/wp-content/uploads/ifood_logo-baixa.png" style="widht:80px;height:43px">
+            <button class="button" style="vertical-align:middle"><span><b>Pedir</b>
+        </header>
+        <section>
+            <h1>Quem somos nós?</h1>
+            <p>Somos uma empresa fictícia baseada em vozes da nossa cabeça, com o objetivo de deixar o delivery, principalmente de pizzas,
+                 o mais acessível possivel! Com o serviço mais personalizado de toda São Paulo.</p>
+            
+
+        </section>
+
+
+    </body>
+</html>
