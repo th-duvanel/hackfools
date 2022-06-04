@@ -51,7 +51,7 @@ function visualizar() {
     preview.innerHTML = '';
     preview.innerHTML += '<img id="base" src="pizzas/bases/' + BASE + '.PNG" width="400px" height="400px">';
     preview.innerHTML += '<img id="recheio" src="pizzas/recheios/' + RECHEIO + '.PNG" width="400px" height="400px">';
-    preview.innerHTML += '<img id="molho" src="pizzas/molhos/' + MOLHO + '.PNG" width="400px" height="400px">';
+    preview.innerHTML += '<img id="molho" src="pizzas/molho/' + MOLHO + '.PNG" width="400px" height="400px">';
     ADICIONAIS.forEach(adc => {
         preview.innerHTML += '<img id="recheio" src="pizzas/adicionais/' + adc + '.PNG" width="400px" height="400px">';
     });
