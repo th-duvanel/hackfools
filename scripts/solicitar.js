@@ -1,9 +1,10 @@
-function solicitar() {
+var PRECO, BASE, RECHEIO, MOLHO, ADICIONAIS;
+
+function obter() {
     let preco = 0.0;
     let eBases = document.getElementById("base");
     let eRecheios = document.getElementById("recheio");
     let eMolhos = document.getElementById("molho");
-    let eAdicionais = document.getElementById("adicionais");
 
     let base = eBases.value;
     let recheio = eRecheios.value;
@@ -21,4 +22,16 @@ function solicitar() {
     });
 
     console.log(base, recheio, molho, listaAdcs, preco);
+}
+
+function visualizar() {
+    obter();
+    let c = document.getElementById("preview");
+
+
+}
+
+function confirmar() {
+    visualizar()
+
 }
